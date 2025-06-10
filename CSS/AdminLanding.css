@@ -1,0 +1,59 @@
+
+
+  
+  /* Main Content */
+  main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  /*main h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }*/
+
+  h1.JunkXChange{
+    font-size: 3.5rem;
+  }
+  
+  main .recycle-icon img {
+    width: 200px;
+    height: auto;
+    margin: 20px 0;
+  }
+  
+  p.tagline {
+    font-size: 2rem;
+    margin-top: 10px;
+  }
+  
+  .green {
+    color: #388e3c;
+  }
+  
+  .yellow {
+    color: #fbc02d;
+  }
+  
+  
+  
+  @keyframes rotate360 {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .recycle-icon img {
+    width: 120px;
+    height: auto;
+    margin: 20px 0;
+    animation: rotate360 5s linear infinite; /* adjust duration as needed */
+  }

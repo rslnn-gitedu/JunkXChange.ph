@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>JunkXchange EnterOTP Page</title>
+  <link rel="stylesheet" href="/CSS//EnterOTP.css" />
+  <link rel="stylesheet" href="/CSS/BHF.css" />
+</head>
+<body>
+  <header>
+    <div class="JunkXChange"><span class="Junk">Junk</span><span class="X">X</span><span class="change">change</span></div>
+  </header>
+
+<main class="EnterOTP-container">
+  <div class="JunkXChange" >
+    <h1><span class="Junk">Junk</span><span class="X">X</span><span class="change">change</span></h1>
+  </div>  
+    <div class="container">
+      <h2>Enter OTP code</h2>
+        <form onsubmit="return collectOTP()">
+            <div class="otp-container">
+                <input type="text" class="otp-input" maxlength="1" id="otp1">
+                <input type="text" class="otp-input" maxlength="1" id="otp2">
+                <input type="text" class="otp-input" maxlength="1" id="otp3">
+                <input type="text" class="otp-input" maxlength="1" id="otp4">
+            </div>
+                <input type="hidden" name="otp" id="full-otp">
+                <button type="submit" class="Continue-btn">Continue</button>
+                <p>Didn't receive a code?Resend</p> <!--need js to resend OTP, dikopa alam paano HAHAHHA-->
+        </form>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 <strong>JunkXchange</strong> – Go Green, Get Cash!</p>
+  </footer>
+
+  
+        <script src="../JAVASCRIPT/EnterOTP.js"></script>
+</body>
+</html>
